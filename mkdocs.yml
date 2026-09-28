@@ -1,0 +1,44 @@
+site_name: KIKS-VSSL
+theme:
+  palette:
+    primary: light blue
+  name: material 
+  language: ja
+  features:
+    - content.code.copy
+    - navigation.footer
+
+nav:
+  - ホーム: index.md
+  - はじめに: about.md
+  - つくりかた:
+    - ダウンロード: making/download.md
+    - 部品調達: making/parts.md
+    - 工具: making/tools.md
+    - 回路基板の発注: making/circuit.md
+    - 回路の実装: making/soldering.md
+    - 3Dプリント: making/printing.md
+    - 組み立て: making/assembly.md
+  - プログラミング:
+    - 1. 環境構築: software/environment.md
+    - 2. 書き込み・実行方法: software/write.md
+    - 3. 音を鳴らす: software/speaker.md
+    - 4. キック機構: software/kicker.md
+    - 5. 走らせる: software/wheels.md
+    - 6. IMUを使う: software/imu.md
+    - 7. スマホ・パソコンで操作: software/webble.md
+    - 8. Xboxリモートコントローラーで操作: software/xbox.md
+    
+  - 応用例: application.md
+
+# フッター
+extra:
+  social:
+     - icon: fontawesome/brands/twitter
+       link: https://x.com/pandamaLab
+       name: 管理人のX
+     - icon: fontawesome/brands/github
+       link: https://github.com/yotadori
+       name: 管理人GitHubページ
+
+copyright: Copyright &copy; 2026 yotadori 
